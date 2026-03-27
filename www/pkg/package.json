@@ -1,0 +1,15 @@
+{
+  "name": "training-roi-calculator",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "training_roi_calculator_bg.wasm",
+    "training_roi_calculator.js",
+    "training_roi_calculator.d.ts"
+  ],
+  "main": "training_roi_calculator.js",
+  "types": "training_roi_calculator.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
